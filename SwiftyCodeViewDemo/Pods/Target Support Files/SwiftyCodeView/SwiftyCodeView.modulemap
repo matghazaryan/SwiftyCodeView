@@ -1,0 +1,6 @@
+framework module SwiftyCodeView {
+  umbrella header "SwiftyCodeView-umbrella.h"
+
+  export *
+  module * { export * }
+}

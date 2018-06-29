@@ -1,0 +1,16 @@
+PODS:
+  - SwiftyCodeView (0.1.0)
+
+DEPENDENCIES:
+  - SwiftyCodeView (from `/Users/artur/Desktop/Pod/SwiftyCodeView`)
+
+EXTERNAL SOURCES:
+  SwiftyCodeView:
+    :path: "/Users/artur/Desktop/Pod/SwiftyCodeView"
+
+SPEC CHECKSUMS:
+  SwiftyCodeView: 3e4b6014f9ca3fbbe748defe41c06453186e0a99
+
+PODFILE CHECKSUM: 9a36df8c88efaa4eab105b6f0bd689f5d3741cf7
+
+COCOAPODS: 1.5.3

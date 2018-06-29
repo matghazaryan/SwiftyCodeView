@@ -10,7 +10,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Delegate-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="SwiftyCodeViewDemo" customModuleProvider="target" sceneMemberID="viewController">
@@ -18,27 +18,61 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lVk-2S-GGE">
-                                <rect key="frame" x="67" y="54" width="240" height="60"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lVk-2S-GGE" customClass="SwiftyCodeView" customModule="SwiftyCodeView">
+                                <rect key="frame" x="67" y="54" width="240" height="58"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="60" id="L2x-dG-pEd"/>
+                                    <constraint firstAttribute="height" constant="58" id="L2x-dG-pEd"/>
                                 </constraints>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="length">
                                         <integer key="value" value="4"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="ao4-IL-Cvi"/>
+                                </connections>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="code:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hbv-ZZ-c9v">
+                                <rect key="frame" x="166" y="153" width="48" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="esF-Uz-BgZ" customClass="CustomCodeView" customModule="SwiftyCodeViewDemo" customModuleProvider="target">
+                                <rect key="frame" x="67" y="210" width="240" height="69"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="69" id="xXN-zf-sPj"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="length">
+                                        <integer key="value" value="4"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="Awc-PL-8ll"/>
+                                </connections>
                             </view>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="Hbv-ZZ-c9v" firstAttribute="top" secondItem="lVk-2S-GGE" secondAttribute="bottom" constant="10" id="GDR-A4-GHZ"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="esF-Uz-BgZ" secondAttribute="trailing" constant="68" id="JQh-UA-4mZ"/>
                             <constraint firstItem="lVk-2S-GGE" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="34" id="KrN-tE-WeS"/>
                             <constraint firstItem="lVk-2S-GGE" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="67" id="OUP-gH-eMT"/>
+                            <constraint firstItem="Hbv-ZZ-c9v" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="a7g-Dg-OCu"/>
+                            <constraint firstItem="esF-Uz-BgZ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="67" id="iqf-gb-6yF"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="lVk-2S-GGE" secondAttribute="trailing" constant="68" id="lBd-6f-0US"/>
+                            <constraint firstItem="esF-Uz-BgZ" firstAttribute="top" secondItem="Hbv-ZZ-c9v" secondAttribute="bottom" constant="50" id="nAZ-cS-wzM"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="codeView" destination="lVk-2S-GGE" id="mx0-mR-zbJ"/>
+                        <outlet property="customCodeView" destination="esF-Uz-BgZ" id="K8u-ET-7YH"/>
+                        <outlet property="resultLabel" destination="Hbv-ZZ-c9v" id="wFS-Un-DPh"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

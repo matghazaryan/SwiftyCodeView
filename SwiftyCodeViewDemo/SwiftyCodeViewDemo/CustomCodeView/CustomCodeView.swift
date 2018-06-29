@@ -11,6 +11,8 @@ import SwiftyCodeView
 
 class CustomCodeView: SwiftyCodeView {
     override func generateItem() -> SwiftyCodeItemView {
-        return Bundle(for: CustomCodeItemView.self).loadNibNamed("CustomCodeItemView", owner: nil, options: nil)?.first as! SwiftyCodeItemView
+        return Bundle(for: CustomCodeItemView.self)
+            .loadNibNamed("CustomCodeItemView", owner: nil, options: nil)?
+            .first as! SwiftyCodeItemView
     }
 }

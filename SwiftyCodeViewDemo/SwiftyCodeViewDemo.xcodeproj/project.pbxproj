@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		66BA732FEF78C1A7FCBB1DD4 /* Pods_SwiftyCodeViewDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 299E4A2F240A34BEE6E804E7 /* Pods_SwiftyCodeViewDemo.framework */; };
+		7531CA7320E6E86800E4E207 /* CustomCodeItemView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7531CA7020E6E86800E4E207 /* CustomCodeItemView.xib */; };
+		7531CA7420E6E86800E4E207 /* CustomCodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7531CA7120E6E86800E4E207 /* CustomCodeView.swift */; };
+		7531CA7520E6E86800E4E207 /* CustomCodeViewItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7531CA7220E6E86800E4E207 /* CustomCodeViewItem.swift */; };
 		75FE0A0920E6D19C0043AA9B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75FE0A0820E6D19C0043AA9B /* AppDelegate.swift */; };
 		75FE0A0B20E6D19C0043AA9B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75FE0A0A20E6D19C0043AA9B /* ViewController.swift */; };
 		75FE0A0E20E6D19C0043AA9B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75FE0A0C20E6D19C0043AA9B /* Main.storyboard */; };
@@ -15,6 +19,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0B0F99F4663126303D5E9CFF /* Pods-SwiftyCodeViewDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftyCodeViewDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftyCodeViewDemo/Pods-SwiftyCodeViewDemo.release.xcconfig"; sourceTree = "<group>"; };
+		299E4A2F240A34BEE6E804E7 /* Pods_SwiftyCodeViewDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftyCodeViewDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7531CA7020E6E86800E4E207 /* CustomCodeItemView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomCodeItemView.xib; sourceTree = "<group>"; };
+		7531CA7120E6E86800E4E207 /* CustomCodeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCodeView.swift; sourceTree = "<group>"; };
+		7531CA7220E6E86800E4E207 /* CustomCodeViewItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCodeViewItem.swift; sourceTree = "<group>"; };
 		75FE0A0520E6D19C0043AA9B /* SwiftyCodeViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftyCodeViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		75FE0A0820E6D19C0043AA9B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		75FE0A0A20E6D19C0043AA9B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +31,7 @@
 		75FE0A0F20E6D19C0043AA9B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		75FE0A1220E6D19C0043AA9B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		75FE0A1420E6D19C0043AA9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D8161A1E488B0E26C2AA9B6E /* Pods-SwiftyCodeViewDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftyCodeViewDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftyCodeViewDemo/Pods-SwiftyCodeViewDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +39,39 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				66BA732FEF78C1A7FCBB1DD4 /* Pods_SwiftyCodeViewDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		73884D4C131D41A10D168814 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D8161A1E488B0E26C2AA9B6E /* Pods-SwiftyCodeViewDemo.debug.xcconfig */,
+				0B0F99F4663126303D5E9CFF /* Pods-SwiftyCodeViewDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7531CA6F20E6E86800E4E207 /* CustomCodeView */ = {
+			isa = PBXGroup;
+			children = (
+				7531CA7020E6E86800E4E207 /* CustomCodeItemView.xib */,
+				7531CA7120E6E86800E4E207 /* CustomCodeView.swift */,
+				7531CA7220E6E86800E4E207 /* CustomCodeViewItem.swift */,
+			);
+			path = CustomCodeView;
+			sourceTree = "<group>";
+		};
 		75FE09FC20E6D19C0043AA9B = {
 			isa = PBXGroup;
 			children = (
 				75FE0A0720E6D19C0043AA9B /* SwiftyCodeViewDemo */,
 				75FE0A0620E6D19C0043AA9B /* Products */,
+				73884D4C131D41A10D168814 /* Pods */,
+				AB91DB37D2A83CA0FA094882 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,6 +86,7 @@
 		75FE0A0720E6D19C0043AA9B /* SwiftyCodeViewDemo */ = {
 			isa = PBXGroup;
 			children = (
+				7531CA6F20E6E86800E4E207 /* CustomCodeView */,
 				75FE0A0820E6D19C0043AA9B /* AppDelegate.swift */,
 				75FE0A0A20E6D19C0043AA9B /* ViewController.swift */,
 				75FE0A0C20E6D19C0043AA9B /* Main.storyboard */,
@@ -64,6 +97,14 @@
 			path = SwiftyCodeViewDemo;
 			sourceTree = "<group>";
 		};
+		AB91DB37D2A83CA0FA094882 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				299E4A2F240A34BEE6E804E7 /* Pods_SwiftyCodeViewDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -71,9 +112,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 75FE0A1720E6D19C0043AA9B /* Build configuration list for PBXNativeTarget "SwiftyCodeViewDemo" */;
 			buildPhases = (
+				4C7EAF76B49319F45AB789D5 /* [CP] Check Pods Manifest.lock */,
 				75FE0A0120E6D19C0043AA9B /* Sources */,
 				75FE0A0220E6D19C0043AA9B /* Frameworks */,
 				75FE0A0320E6D19C0043AA9B /* Resources */,
+				9DE5A2B8AE51C82343B78BAE /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,10 +168,50 @@
 				75FE0A1320E6D19C0043AA9B /* LaunchScreen.storyboard in Resources */,
 				75FE0A1020E6D19C0043AA9B /* Assets.xcassets in Resources */,
 				75FE0A0E20E6D19C0043AA9B /* Main.storyboard in Resources */,
+				7531CA7320E6E86800E4E207 /* CustomCodeItemView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4C7EAF76B49319F45AB789D5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SwiftyCodeViewDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9DE5A2B8AE51C82343B78BAE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SwiftyCodeViewDemo/Pods-SwiftyCodeViewDemo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SwiftyCodeView/SwiftyCodeView.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyCodeView.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwiftyCodeViewDemo/Pods-SwiftyCodeViewDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		75FE0A0120E6D19C0043AA9B /* Sources */ = {
@@ -136,7 +219,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				75FE0A0B20E6D19C0043AA9B /* ViewController.swift in Sources */,
+				7531CA7420E6E86800E4E207 /* CustomCodeView.swift in Sources */,
 				75FE0A0920E6D19C0043AA9B /* AppDelegate.swift in Sources */,
+				7531CA7520E6E86800E4E207 /* CustomCodeViewItem.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,6 +363,7 @@
 		};
 		75FE0A1820E6D19C0043AA9B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D8161A1E488B0E26C2AA9B6E /* Pods-SwiftyCodeViewDemo.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -297,6 +383,7 @@
 		};
 		75FE0A1920E6D19C0043AA9B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B0F99F4663126303D5E9CFF /* Pods-SwiftyCodeViewDemo.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;

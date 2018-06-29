@@ -11,7 +11,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
-        <view contentMode="scaleToFill" id="alR-uz-JSz" customClass="CustomCodeItemView" customModule="SwiftyCodeView" customModuleProvider="target">
+        <view contentMode="scaleToFill" id="alR-uz-JSz" customClass="CustomCodeItemView" customModule="SwiftyCodeViewDemo" customModuleProvider="target">
             <rect key="frame" x="0.0" y="0.0" width="57" height="69"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
             <subviews>
@@ -22,7 +22,7 @@
                             <rect key="frame" x="0.0" y="0.0" width="57" height="69"/>
                             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         </view>
-                        <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="1" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="1Rf-O7-30M" customClass="SwiftyCodeTextField" customModule="SwiftyCodeView" customModuleProvider="target">
+                        <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="1" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="1Rf-O7-30M" customClass="SwiftyCodeTextField" customModule="SwiftyCodeView">
                             <rect key="frame" x="0.0" y="11.5" width="57" height="46"/>
                             <nil key="textColor"/>
                             <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="39"/>

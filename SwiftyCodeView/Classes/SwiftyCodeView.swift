@@ -91,7 +91,8 @@ open class SwiftyCodeView: UIControl {
     open func generateItem() -> SwiftyCodeItemView {
         let type = SwiftyCodeItemView.self
         let typeStr = type.description().components(separatedBy: ".").last ?? ""
-        return Bundle(for: type)
+        let bundle = Bundle(for: type)
+        return bundle
             .loadNibNamed(typeStr,
                           owner: nil,
                           options: nil)?

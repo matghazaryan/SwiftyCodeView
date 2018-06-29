@@ -7,19 +7,18 @@
 //
 
 import UIKit
+import SwiftyCodeView
 
 class ViewController: UIViewController {
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+    @IBOutlet weak var codeView: SwiftyCodeView!
+    @IBOutlet weak var customCodeView: CustomCodeView!
+    @IBOutlet weak var resultLabel: UILabel!
+}
+
+extension ViewController: SwiftyCodeViewDelegate {
+    func codeView(sender: SwiftyCodeView, didFinishInput code: String) {
+        resultLabel.text = code
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
-
 }
 
