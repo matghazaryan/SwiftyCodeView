@@ -6,9 +6,7 @@ target 'SwiftyCodeViewDemoRX' do
   use_frameworks!
 
   # Pods for SwiftyCodeViewDemoRX
-  pod 'SwiftyCodeView'
-  pod 'RxSwift',    '4.1.2',   :inhibit_warnings => true
-  pod 'RxCocoa',    '4.1.2',   :inhibit_warnings => true
+  pod 'SwiftyCodeView/RxSwift'
 
 end
 
