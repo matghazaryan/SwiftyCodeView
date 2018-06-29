@@ -31,8 +31,8 @@ Pod::Spec.new do |s|
   s.subspec "RxSwift" do |ss|
     ss.source_files = "SwiftyCodeView/Classes/RxSwiftyCodeView/*"
     ss.dependency "SwiftyCodeView/Core"
-    ss.dependency "RxSwift", "~> 4.1.2"
-    ss.dependency "RxCocoa", "~> 4.1.2"
+    ss.dependency "RxSwift"
+    ss.dependency "RxCocoa"
   end
 
 end
