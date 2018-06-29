@@ -6,6 +6,6 @@ target 'SwiftyCodeViewDemo' do
   use_frameworks!
 
   # Pods for SwiftyCodeViewDemo
-  pod 'SwiftyCodeView', :path => '/Users/artur/Desktop/Pod/SwiftyCodeView'
+  pod 'SwiftyCodeView'
 
 end

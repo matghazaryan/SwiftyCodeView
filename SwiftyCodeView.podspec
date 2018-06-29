@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
  s.swift_version     = '4.1'
   s.name             = 'SwiftyCodeView'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'An UI Component for verification codes written in swift'
 
   s.description      = <<-DESC
@@ -20,11 +20,19 @@ Pod::Spec.new do |s|
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'arturdev' => 'mkrtarturdev@gmail.com' }
   s.source           = { :git => 'https://github.com/arturdev/SwiftyCodeView.git', :tag => s.version.to_s }
-
   s.ios.deployment_target = '9.3'
+  s.default_subspec = "Core"
 
-  s.source_files = 'SwiftyCodeView/Classes/*'
-  
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  s.frameworks = 'UIKit'
+  s.subspec "Core" do |ss|
+    ss.source_files = 'SwiftyCodeView/Classes/SwiftyCodeView/*'
+    ss.frameworks = 'UIKit'
+  end
+
+  s.subspec "RxSwift" do |ss|
+    ss.source_files = "SwiftyCodeView/Classes/RxSwiftyCodeView/*"
+    ss.dependency "SwiftyCodeView/Core"
+    ss.dependency "RxSwift", "~> 4.1.2"
+    ss.dependency "RxCocoa", "~> 4.1.2"
+  end
+
 end

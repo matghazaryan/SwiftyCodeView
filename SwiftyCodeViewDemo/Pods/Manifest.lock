@@ -2,15 +2,15 @@ PODS:
   - SwiftyCodeView (0.1.0)
 
 DEPENDENCIES:
-  - SwiftyCodeView (from `/Users/artur/Desktop/Pod/SwiftyCodeView`)
+  - SwiftyCodeView
 
-EXTERNAL SOURCES:
-  SwiftyCodeView:
-    :path: "/Users/artur/Desktop/Pod/SwiftyCodeView"
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - SwiftyCodeView
 
 SPEC CHECKSUMS:
-  SwiftyCodeView: 3e4b6014f9ca3fbbe748defe41c06453186e0a99
+  SwiftyCodeView: 40bff9f5c5bd7b85e32cbc829fe9f42233f5cb73
 
-PODFILE CHECKSUM: 9a36df8c88efaa4eab105b6f0bd689f5d3741cf7
+PODFILE CHECKSUM: 6e513ded0496c9fc38b7677dc33c509fb7de5c02
 
 COCOAPODS: 1.5.3

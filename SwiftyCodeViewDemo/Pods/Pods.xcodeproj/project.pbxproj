@@ -7,17 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		25DCB7D7DBE243417C3A89126E7C6E14 /* SwiftyCodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3695585D2D6CE38455681D1B181E12F4 /* SwiftyCodeView.swift */; };
+		25DCB7D7DBE243417C3A89126E7C6E14 /* SwiftyCodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55266C2F29042985F4B24464F185DBAC /* SwiftyCodeView.swift */; };
 		27D102287F2BED47DC4F2C6160B18A0B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 908E902E026C5C22904CF9014A5604AD /* Foundation.framework */; };
-		2914753B1736F525B5D9F223782F53D3 /* SwiftyCodeView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D608A668563E0C1CA0F6A24E3A285D33 /* SwiftyCodeView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2914753B1736F525B5D9F223782F53D3 /* SwiftyCodeView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 887F9E459BE06F44153F01B572B0D5DE /* SwiftyCodeView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3DDB33039A5705C89B5B78D0E880142E /* Pods-SwiftyCodeViewDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 85478CAC999C18B7AB6106FEF70B3F52 /* Pods-SwiftyCodeViewDemo-dummy.m */; };
-		6ED618056BD5020D9981019F6A5D12DA /* SwiftyCodeTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D32FF0FB758AF765CF93A440CAE7547 /* SwiftyCodeTextField.swift */; };
-		BEC7E24FA8DEF4EF0A67C8FF41D8F1AE /* SwiftyCodeItemView.xib in Sources */ = {isa = PBXBuildFile; fileRef = 37DE8773BF855627B0AD1E60190FB50B /* SwiftyCodeItemView.xib */; };
+		6ED618056BD5020D9981019F6A5D12DA /* SwiftyCodeTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A817EEF0AA3AD0C0384EFBF9A114F2 /* SwiftyCodeTextField.swift */; };
+		BEC7E24FA8DEF4EF0A67C8FF41D8F1AE /* SwiftyCodeItemView.xib in Sources */ = {isa = PBXBuildFile; fileRef = 7702B35E644767A0404544313E990364 /* SwiftyCodeItemView.xib */; };
 		DF2F8D0DC2095ED8951743B758BE703F /* Pods-SwiftyCodeViewDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2AC7CCA6283023B2C1C97672C63C2C06 /* Pods-SwiftyCodeViewDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E10E698F587675FA34D12A3CCB7CDB35 /* SwiftyCodeView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B83179EA9FED545014F3FC1DC051D60E /* SwiftyCodeView-dummy.m */; };
+		E10E698F587675FA34D12A3CCB7CDB35 /* SwiftyCodeView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B45D424EE5510F485236D4A386C78A71 /* SwiftyCodeView-dummy.m */; };
 		E1608BF48B1C05DC257F08CDB86473E1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 908E902E026C5C22904CF9014A5604AD /* Foundation.framework */; };
 		F2F710757664C5FF4E6B7E24E02A4A64 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC2C02191C153C1554B35DEE8B2D09D4 /* UIKit.framework */; };
-		FCE1F86F6A693740C05FF3B683674A3C /* SwiftyCodeItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F2C0E463094D0C7ED2258C2BDE79873 /* SwiftyCodeItemView.swift */; };
+		FCE1F86F6A693740C05FF3B683674A3C /* SwiftyCodeItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25AD127C97AC3540737E18A763A46823 /* SwiftyCodeItemView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,34 +31,31 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		01A817EEF0AA3AD0C0384EFBF9A114F2 /* SwiftyCodeTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftyCodeTextField.swift; path = SwiftyCodeView/Classes/SwiftyCodeTextField.swift; sourceTree = "<group>"; };
 		1B0D179571A7D99215402E028B0A0C76 /* Pods-SwiftyCodeViewDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftyCodeViewDemo.release.xcconfig"; sourceTree = "<group>"; };
-		206250C2A491674917D10FCEDD664C7F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		226326981E2B61C51A00411B7DED2596 /* SwiftyCodeView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftyCodeView.modulemap; sourceTree = "<group>"; };
+		25AD127C97AC3540737E18A763A46823 /* SwiftyCodeItemView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftyCodeItemView.swift; path = SwiftyCodeView/Classes/SwiftyCodeItemView.swift; sourceTree = "<group>"; };
+		28543C38BA49ED72360B890074282428 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2AC7CCA6283023B2C1C97672C63C2C06 /* Pods-SwiftyCodeViewDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SwiftyCodeViewDemo-umbrella.h"; sourceTree = "<group>"; };
-		2F2C0E463094D0C7ED2258C2BDE79873 /* SwiftyCodeItemView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftyCodeItemView.swift; path = SwiftyCodeView/Classes/SwiftyCodeItemView.swift; sourceTree = "<group>"; };
-		3695585D2D6CE38455681D1B181E12F4 /* SwiftyCodeView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftyCodeView.swift; path = SwiftyCodeView/Classes/SwiftyCodeView.swift; sourceTree = "<group>"; };
-		37DE8773BF855627B0AD1E60190FB50B /* SwiftyCodeItemView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = SwiftyCodeItemView.xib; path = SwiftyCodeView/Classes/SwiftyCodeItemView.xib; sourceTree = "<group>"; };
 		4085184BA83F84075C9671ADA6F17FEB /* Pods-SwiftyCodeViewDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftyCodeViewDemo.debug.xcconfig"; sourceTree = "<group>"; };
-		4D715BFADAD88D3822EB1DF8F162FDC0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		55266C2F29042985F4B24464F185DBAC /* SwiftyCodeView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftyCodeView.swift; path = SwiftyCodeView/Classes/SwiftyCodeView.swift; sourceTree = "<group>"; };
 		55F8BA905A04BE30316B8871A90A8247 /* Pods-SwiftyCodeViewDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SwiftyCodeViewDemo.modulemap"; sourceTree = "<group>"; };
-		5D32FF0FB758AF765CF93A440CAE7547 /* SwiftyCodeTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftyCodeTextField.swift; path = SwiftyCodeView/Classes/SwiftyCodeTextField.swift; sourceTree = "<group>"; };
 		6284C046F0C5826C72750E72021CA6A6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		659778DA15ED6881DB9AD4A38875F6C8 /* Pods-SwiftyCodeViewDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SwiftyCodeViewDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7702B35E644767A0404544313E990364 /* SwiftyCodeItemView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = SwiftyCodeItemView.xib; path = SwiftyCodeView/Classes/SwiftyCodeItemView.xib; sourceTree = "<group>"; };
+		850624FD47CCE87925DE4A7F8441420D /* SwiftyCodeView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyCodeView-prefix.pch"; sourceTree = "<group>"; };
 		85478CAC999C18B7AB6106FEF70B3F52 /* Pods-SwiftyCodeViewDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SwiftyCodeViewDemo-dummy.m"; sourceTree = "<group>"; };
+		887F9E459BE06F44153F01B572B0D5DE /* SwiftyCodeView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyCodeView-umbrella.h"; sourceTree = "<group>"; };
 		908E902E026C5C22904CF9014A5604AD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		965FEB6813FE4B1CC2B3F42CE749CA0B /* SwiftyCodeView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyCodeView.xcconfig; sourceTree = "<group>"; };
 		9D7709F68E30B842284BBE3BFBE39CBD /* Pods-SwiftyCodeViewDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SwiftyCodeViewDemo-frameworks.sh"; sourceTree = "<group>"; };
 		AF4D98501D63C05D7242FB1174807C1A /* Pods-SwiftyCodeViewDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftyCodeViewDemo-acknowledgements.plist"; sourceTree = "<group>"; };
-		B06F9025F7421B02F9D68B51DBC9D892 /* SwiftyCodeView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = SwiftyCodeView.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		B83179EA9FED545014F3FC1DC051D60E /* SwiftyCodeView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftyCodeView-dummy.m"; sourceTree = "<group>"; };
+		B45D424EE5510F485236D4A386C78A71 /* SwiftyCodeView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftyCodeView-dummy.m"; sourceTree = "<group>"; };
 		BC2C02191C153C1554B35DEE8B2D09D4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		C538DB39EED0ADA51216CF82EA2E16B0 /* SwiftyCodeView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyCodeView-prefix.pch"; sourceTree = "<group>"; };
+		BD183E121173A1A230F7B628D86F2438 /* SwiftyCodeView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftyCodeView.modulemap; sourceTree = "<group>"; };
 		D053D2AEF0A9BAD4A176FC367400811B /* Pods-SwiftyCodeViewDemo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SwiftyCodeViewDemo-resources.sh"; sourceTree = "<group>"; };
-		D608A668563E0C1CA0F6A24E3A285D33 /* SwiftyCodeView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyCodeView-umbrella.h"; sourceTree = "<group>"; };
 		D64DE29BC805DF4947642442F0913751 /* Pods_SwiftyCodeViewDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SwiftyCodeViewDemo.framework; path = "Pods-SwiftyCodeViewDemo.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC8BC22DBDE9850EE5D59D932B4A8195 /* SwiftyCodeView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftyCodeView.framework; path = SwiftyCodeView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E36E6BBBB6FF87BC877F2BC4C370C485 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		F9CFF52591E79EC80087E7C12B97780C /* SwiftyCodeView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyCodeView.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,18 +79,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0DA441F132ED2A732AB002905FE7AEDE /* Support Files */ = {
+		0698FF9B49A61EC74AB0711B26E78D5A /* SwiftyCodeView */ = {
 			isa = PBXGroup;
 			children = (
-				4D715BFADAD88D3822EB1DF8F162FDC0 /* Info.plist */,
-				226326981E2B61C51A00411B7DED2596 /* SwiftyCodeView.modulemap */,
-				965FEB6813FE4B1CC2B3F42CE749CA0B /* SwiftyCodeView.xcconfig */,
-				B83179EA9FED545014F3FC1DC051D60E /* SwiftyCodeView-dummy.m */,
-				C538DB39EED0ADA51216CF82EA2E16B0 /* SwiftyCodeView-prefix.pch */,
-				D608A668563E0C1CA0F6A24E3A285D33 /* SwiftyCodeView-umbrella.h */,
+				25AD127C97AC3540737E18A763A46823 /* SwiftyCodeItemView.swift */,
+				7702B35E644767A0404544313E990364 /* SwiftyCodeItemView.xib */,
+				01A817EEF0AA3AD0C0384EFBF9A114F2 /* SwiftyCodeTextField.swift */,
+				55266C2F29042985F4B24464F185DBAC /* SwiftyCodeView.swift */,
+				9C638D428F093B0D3384A0D04BE582E6 /* Support Files */,
 			);
-			name = "Support Files";
-			path = "../../../Developer/SwiftyCodeView/SwiftyCodeViewDemo/Pods/Target Support Files/SwiftyCodeView";
+			name = SwiftyCodeView;
+			path = SwiftyCodeView;
 			sourceTree = "<group>";
 		};
 		10DEDCB394BAA0C7FEDEBE330207B074 /* iOS */ = {
@@ -103,16 +99,6 @@
 				BC2C02191C153C1554B35DEE8B2D09D4 /* UIKit.framework */,
 			);
 			name = iOS;
-			sourceTree = "<group>";
-		};
-		41EF424B6B6F88ABDB3769B5DBC19BC5 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				206250C2A491674917D10FCEDD664C7F /* LICENSE */,
-				E36E6BBBB6FF87BC877F2BC4C370C485 /* README.md */,
-				B06F9025F7421B02F9D68B51DBC9D892 /* SwiftyCodeView.podspec */,
-			);
-			name = Pod;
 			sourceTree = "<group>";
 		};
 		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
@@ -154,11 +140,33 @@
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				C1481E670F3B86D52A0C6B365A2A86DA /* Development Pods */,
 				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				940DD8E77DE12C3986D19C1C2AB8A004 /* Pods */,
 				6BFE9A132FCFBBF9D06AF587AC6B522C /* Products */,
 				9FEFCA4A3ABBD2A664A042F4CABAF457 /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		940DD8E77DE12C3986D19C1C2AB8A004 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0698FF9B49A61EC74AB0711B26E78D5A /* SwiftyCodeView */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9C638D428F093B0D3384A0D04BE582E6 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				28543C38BA49ED72360B890074282428 /* Info.plist */,
+				BD183E121173A1A230F7B628D86F2438 /* SwiftyCodeView.modulemap */,
+				F9CFF52591E79EC80087E7C12B97780C /* SwiftyCodeView.xcconfig */,
+				B45D424EE5510F485236D4A386C78A71 /* SwiftyCodeView-dummy.m */,
+				850624FD47CCE87925DE4A7F8441420D /* SwiftyCodeView-prefix.pch */,
+				887F9E459BE06F44153F01B572B0D5DE /* SwiftyCodeView-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftyCodeView";
 			sourceTree = "<group>";
 		};
 		9FEFCA4A3ABBD2A664A042F4CABAF457 /* Targets Support Files */ = {
@@ -168,28 +176,6 @@
 			);
 			name = "Targets Support Files";
 			sourceTree = "<group>";
-		};
-		C1481E670F3B86D52A0C6B365A2A86DA /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				D46242FDD70F8F8388CADD3BF2B4DBF8 /* SwiftyCodeView */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		D46242FDD70F8F8388CADD3BF2B4DBF8 /* SwiftyCodeView */ = {
-			isa = PBXGroup;
-			children = (
-				2F2C0E463094D0C7ED2258C2BDE79873 /* SwiftyCodeItemView.swift */,
-				37DE8773BF855627B0AD1E60190FB50B /* SwiftyCodeItemView.xib */,
-				5D32FF0FB758AF765CF93A440CAE7547 /* SwiftyCodeTextField.swift */,
-				3695585D2D6CE38455681D1B181E12F4 /* SwiftyCodeView.swift */,
-				41EF424B6B6F88ABDB3769B5DBC19BC5 /* Pod */,
-				0DA441F132ED2A732AB002905FE7AEDE /* Support Files */,
-			);
-			name = SwiftyCodeView;
-			path = /Users/artur/Desktop/Pod/SwiftyCodeView;
-			sourceTree = "<absolute>";
 		};
 /* End PBXGroup section */
 
@@ -471,7 +457,7 @@
 		};
 		7F10FEE33EE16D8EDE215EEC1AA36D15 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 965FEB6813FE4B1CC2B3F42CE749CA0B /* SwiftyCodeView.xcconfig */;
+			baseConfigurationReference = F9CFF52591E79EC80087E7C12B97780C /* SwiftyCodeView.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -548,7 +534,7 @@
 		};
 		F4BEF0A15369698FF997340DCCFC8B5D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 965FEB6813FE4B1CC2B3F42CE749CA0B /* SwiftyCodeView.xcconfig */;
+			baseConfigurationReference = F9CFF52591E79EC80087E7C12B97780C /* SwiftyCodeView.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";

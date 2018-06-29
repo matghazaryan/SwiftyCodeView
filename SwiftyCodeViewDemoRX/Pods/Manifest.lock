@@ -1,0 +1,25 @@
+PODS:
+  - RxCocoa (4.1.2):
+    - RxSwift (~> 4.0)
+  - RxSwift (4.1.2)
+  - SwiftyCodeView (0.1.0)
+
+DEPENDENCIES:
+  - RxCocoa (= 4.1.2)
+  - RxSwift (= 4.1.2)
+  - SwiftyCodeView
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - RxCocoa
+    - RxSwift
+    - SwiftyCodeView
+
+SPEC CHECKSUMS:
+  RxCocoa: d88ba0f1f6abf040011a9eb4b539324fc426843a
+  RxSwift: e49536837d9901277638493ea537394d4b55f570
+  SwiftyCodeView: 40bff9f5c5bd7b85e32cbc829fe9f42233f5cb73
+
+PODFILE CHECKSUM: 4e4ec57e294f02607ca0c868f74e15a3888d98f9
+
+COCOAPODS: 1.5.3
