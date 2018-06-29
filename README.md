@@ -26,6 +26,11 @@ it, simply add the following line to your Podfile:
 
 ```ruby
 pod 'SwiftyCodeView'
+
+# or 
+
+pod 'SwiftyCodeView/RxSwift'
+
 ```
 
 ## Author
