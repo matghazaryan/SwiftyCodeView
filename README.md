@@ -39,6 +39,8 @@ pod 'SwiftyCodeView/RxSwift'
 
 arturdev, mkrtarturdev@gmail.com
 
+Feel free to open issues, feature requests and point bugs/mistakes!
+
 ## License
 
 SwiftyCodeView is available under the MIT license. See the LICENSE file for more info.
