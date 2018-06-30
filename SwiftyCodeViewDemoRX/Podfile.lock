@@ -2,8 +2,8 @@ PODS:
   - RxCocoa (4.2.0):
     - RxSwift (~> 4.0)
   - RxSwift (4.2.0)
-  - SwiftyCodeView/Core (0.2.1)
-  - SwiftyCodeView/RxSwift (0.2.1):
+  - SwiftyCodeView/Core (0.3.2)
+  - SwiftyCodeView/RxSwift (0.3.2):
     - RxCocoa
     - RxSwift
     - SwiftyCodeView/Core
@@ -20,7 +20,7 @@ SPEC REPOS:
 SPEC CHECKSUMS:
   RxCocoa: 0b54909c902e1e581212a03e690bbd94032d8baa
   RxSwift: 99e10317ddfcc7fbe01356aafd118fde4a0be104
-  SwiftyCodeView: 8eaa20262958ae77b6e4faf59785731fbcd2ba34
+  SwiftyCodeView: ac1092fd58e6c619501d147ef78c935c1ea789a7
 
 PODFILE CHECKSUM: a2f31d1d432e9d059d7ce1404709038c2b2764f9
 
