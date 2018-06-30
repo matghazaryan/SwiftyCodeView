@@ -6,6 +6,8 @@
 
 SwiftyCodeView is an elegant and customizable UI component which can be used as input field for verification codes, password, etc...
 
+<img src="https://raw.githubusercontent.com/arturdev/SwiftyCodeView/master/demo.gif">
+
 ## Usage
 Drag a UIView object into storyboard and set it's class to SwiftCodeView.
 <br>Implement SwiftyCodeViewDelegate protocol.
