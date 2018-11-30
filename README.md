@@ -13,6 +13,14 @@ Drag a UIView object into storyboard and set it's class to SwiftCodeView.
 <br>Implement SwiftyCodeViewDelegate protocol.
 <br>Thats it!
 
+```Swift
+extension ViewController: SwiftyCodeViewDelegate {
+    func codeView(sender: SwiftyCodeView, didFinishInput code: String) {
+        print("Entered code: ", code)
+    }
+}
+```
+
 ## Customization
 Things you can customize - Everything! (See example project)
 
