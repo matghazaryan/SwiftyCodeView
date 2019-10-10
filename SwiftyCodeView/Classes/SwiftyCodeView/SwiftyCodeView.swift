@@ -38,9 +38,9 @@ open class SwiftyCodeView: UIControl {
 		}
 		set {
 			let array = newValue.map(String.init)
-			for i in 0..<array.count {
+			for i in 0..<length {
 				let item = stackView.arrangedSubviews[i] as! SwiftyCodeItemView
-				item.textField.text = array[i]
+				item.textField.text = i < array.count ? array[i] : ""
 			}
 		}
 	}
