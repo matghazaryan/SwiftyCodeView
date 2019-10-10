@@ -13,7 +13,7 @@ import RxCocoa
 public extension Reactive where Base: SwiftyCodeView {
     
     /// Reactive wrapper for `code` property.
-    public  var code: ControlProperty<String> {
+    var code: ControlProperty<String> {
         return controlProperty(editingEvents: [.allEditingEvents, .valueChanged],
                                getter: { codeView in
                                 codeView.code

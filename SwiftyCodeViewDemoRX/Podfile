@@ -6,7 +6,7 @@ target 'SwiftyCodeViewDemoRX' do
   use_frameworks!
 
   # Pods for SwiftyCodeViewDemoRX
-  pod 'SwiftyCodeView/RxSwift'
+  pod 'SwiftyCodeView/RxSwift', :path => '../'
 
 end
 

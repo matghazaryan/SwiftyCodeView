@@ -1,16 +1,18 @@
 PODS:
-  - SwiftyCodeView (0.1.0)
+  - SwiftyCodeView (0.3.3):
+    - SwiftyCodeView/Core (= 0.3.3)
+  - SwiftyCodeView/Core (0.3.3)
 
 DEPENDENCIES:
-  - SwiftyCodeView
+  - SwiftyCodeView (from `../`)
 
-SPEC REPOS:
-  https://github.com/cocoapods/specs.git:
-    - SwiftyCodeView
+EXTERNAL SOURCES:
+  SwiftyCodeView:
+    :path: "../"
 
 SPEC CHECKSUMS:
-  SwiftyCodeView: 40bff9f5c5bd7b85e32cbc829fe9f42233f5cb73
+  SwiftyCodeView: 6c2b6353bba059eaa78959b8fbdc1be282b83655
 
-PODFILE CHECKSUM: 6e513ded0496c9fc38b7677dc33c509fb7de5c02
+PODFILE CHECKSUM: 23bac89511b609a750a4b2eba24b68be7720253d
 
-COCOAPODS: 1.5.3
+COCOAPODS: 1.7.1
