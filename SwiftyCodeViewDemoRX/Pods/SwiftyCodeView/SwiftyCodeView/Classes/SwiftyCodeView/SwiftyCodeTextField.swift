@@ -15,7 +15,7 @@ open class SwiftyCodeTextField: UITextField {
     weak open var deleteDelegate: SwiftyCodeTextFieldDelegate?
     
     override open func deleteBackward() {
-        super.deleteBackward()        
         deleteDelegate?.deleteBackward(sender: self)
+		super.deleteBackward()  
     }
 }

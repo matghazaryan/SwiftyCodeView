@@ -148,10 +148,12 @@ extension SwiftyCodeView: UITextFieldDelegate, SwiftyCodeTextFieldDelegate {
             if !itemView.textField.isFirstResponder {
                 continue
             }
-            
-            let prevItem = stackView.arrangedSubviews[i-1] as! SwiftyCodeItemView
-            _ = prevItem.becomeFirstResponder()
-            prevItem.textField.text = ""
+
+			let prevItem = stackView.arrangedSubviews[i-1] as! SwiftyCodeItemView
+			if itemView.textField.text?.isEmpty ?? true {
+				prevItem.textField.text = ""
+				_ = prevItem.becomeFirstResponder()
+			}
         }
         sendActions(for: .valueChanged)
     }
