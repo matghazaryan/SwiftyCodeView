@@ -17,6 +17,12 @@ class ViewController: UIViewController {
 }
 
 extension ViewController: SwiftyCodeViewDelegate {
+    func codeViewIsNotFull() {
+        let alert = UIAlertController(title: "Error", message: "Enter Code", preferredStyle: .alert)
+        alert.addAction(UIAlertAction(title: "Ok", style: .default, handler: nil))
+        present(alert, animated: true, completion: nil)
+    }
+    
     func codeView(sender: SwiftyCodeView, didFinishInput code: String) {
         resultLabel.text = code
     }

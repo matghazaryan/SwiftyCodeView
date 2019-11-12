@@ -9,6 +9,7 @@ import UIKit
 @objc
 public protocol SwiftyCodeViewDelegate: class {
 	func codeView(sender: SwiftyCodeView, didFinishInput code: String)
+    func codeViewIsNotFull()
 }
 
 @IBDesignable
@@ -132,6 +133,7 @@ extension SwiftyCodeView: UITextFieldDelegate, SwiftyCodeTextFieldDelegate {
 			}
 
 			let prevItem = stackView.arrangedSubviews[i-1] as! SwiftyCodeItemView
+            delegate?.codeViewIsNotFull() // Added Line
 			if itemView.textField.text?.isEmpty ?? true {
 				prevItem.textField.text = ""
 				_ = prevItem.becomeFirstResponder()
