@@ -8,7 +8,7 @@ import UIKit
 
 @objc
 public protocol SwiftyCodeViewDelegate: class {
-	func codeView(sender: SwiftyCodeView, didFinishInput code: String)
+	func codeView(sender: SwiftyCodeView, didFinishInput code: String) -> Bool
 }
 
 @IBDesignable
@@ -41,6 +41,9 @@ open class SwiftyCodeView: UIControl {
 			for i in 0..<length {
 				let item = stackView.arrangedSubviews[i] as! SwiftyCodeItemView
 				item.textField.text = i < array.count ? array[i] : ""
+			}
+			if !stackView.arrangedSubviews.compactMap({$0 as? UITextField}).filter({$0.isFirstResponder}).isEmpty {
+				self.becomeFirstResponder()
 			}
 		}
 	}
@@ -81,12 +84,14 @@ open class SwiftyCodeView: UIControl {
 			.last as! SwiftyCodeItemView
 	}
 
+	@discardableResult
 	override open func becomeFirstResponder() -> Bool {
 		let items = stackView.arrangedSubviews
 			.map({$0 as! SwiftyCodeItemView})
 		return (items.filter({($0.textField.text ?? "").isEmpty}).first ?? items.last)!.becomeFirstResponder()
 	}
 
+	@discardableResult
 	override open func resignFirstResponder() -> Bool {
 		stackView.arrangedSubviews.forEach({$0.resignFirstResponder()})
 		return true
@@ -112,8 +117,9 @@ extension SwiftyCodeView: UITextFieldDelegate, SwiftyCodeTextFieldDelegate {
 			item.textField.text = string
 			sendActions(for: .valueChanged)
 			if index == length - 1 { //is last textfield
-				delegate?.codeView(sender: self, didFinishInput: self.code)
-				textField.resignFirstResponder()
+				if (delegate?.codeView(sender: self, didFinishInput: self.code) ?? false) {
+					textField.resignFirstResponder()
+				}
 				return false
 			}
 
