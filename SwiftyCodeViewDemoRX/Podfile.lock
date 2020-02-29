@@ -5,8 +5,8 @@ PODS:
   - RxRelay (5.0.0):
     - RxSwift (~> 5)
   - RxSwift (5.0.0)
-  - SwiftyCodeView/Core (0.3.3)
-  - SwiftyCodeView/RxSwift (0.3.3):
+  - SwiftyCodeView/Core (0.3.5)
+  - SwiftyCodeView/RxSwift (0.3.5):
     - RxCocoa
     - RxSwift
     - SwiftyCodeView/Core
@@ -15,7 +15,7 @@ DEPENDENCIES:
   - SwiftyCodeView/RxSwift (from `../`)
 
 SPEC REPOS:
-  https://github.com/cocoapods/specs.git:
+  https://github.com/CocoaPods/Specs.git:
     - RxCocoa
     - RxRelay
     - RxSwift
@@ -28,8 +28,8 @@ SPEC CHECKSUMS:
   RxCocoa: fcf32050ac00d801f34a7f71d5e8e7f23026dcd8
   RxRelay: 4f7409406a51a55cd88483f21ed898c234d60f18
   RxSwift: 8b0671caa829a763bbce7271095859121cbd895f
-  SwiftyCodeView: 6c2b6353bba059eaa78959b8fbdc1be282b83655
+  SwiftyCodeView: 40aca2a0a07203113358de5cd8c24756a39bb885
 
 PODFILE CHECKSUM: 24942d50cecea0fe9f4340842636149451c40039
 
-COCOAPODS: 1.7.1
+COCOAPODS: 1.8.4

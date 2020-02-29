@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
  s.swift_version     = '5.0'
   s.name             = 'SwiftyCodeView'
-  s.version          = '0.3.5'
+  s.version          = '0.3.6'
   s.summary          = 'An UI Component for verification codes written in swift'
 
   s.description      = <<-DESC

@@ -129,11 +129,11 @@ extension SwiftyCodeView: UITextFieldDelegate, SwiftyCodeTextFieldDelegate {
 		return false
 	}
 
-	public func deleteBackward(sender: SwiftyCodeTextField) {
-		for i in 1..<length{
+	public func deleteBackward(sender: SwiftyCodeTextField, prevValue: String?) {
+		for i in 1..<length {
 			let itemView = stackView.arrangedSubviews[i] as! SwiftyCodeItemView
 
-			if !itemView.textField.isFirstResponder {
+			guard itemView.textField.isFirstResponder, (prevValue?.isEmpty ?? true) else {
 				continue
 			}
 
