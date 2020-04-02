@@ -15,8 +15,9 @@ Drag a UIView object into storyboard and set it's class to SwiftCodeView.
 
 ```Swift
 extension ViewController: SwiftyCodeViewDelegate {
-    func codeView(sender: SwiftyCodeView, didFinishInput code: String) {
+    func codeView(sender: SwiftyCodeView, didFinishInput code: String) -> Bool {
         print("Entered code: ", code)
+        return true
     }
 }
 ```
