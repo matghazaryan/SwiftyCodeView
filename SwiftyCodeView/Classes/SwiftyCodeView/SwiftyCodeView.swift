@@ -24,7 +24,7 @@ open class SwiftyCodeView: UIControl {
 	var stackView: UIStackView = {
 		let stackView = UIStackView()
 		stackView.axis = .horizontal
-		stackView.distribution = .equalSpacing
+		stackView.distribution = .fillEqually
 		stackView.autoresizingMask = [.flexibleWidth, .flexibleHeight]
 		return stackView
 	}()

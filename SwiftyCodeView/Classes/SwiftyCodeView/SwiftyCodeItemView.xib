@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
-    <device id="retina4_7" orientation="portrait">
-        <adaptation id="fullscreen"/>
-    </device>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
@@ -17,10 +15,6 @@
                 <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8eU-ou-C0S">
                     <rect key="frame" x="0.0" y="0.0" width="51" height="58"/>
                     <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                    <constraints>
-                        <constraint firstAttribute="width" constant="51" id="cS3-og-EIV"/>
-                        <constraint firstAttribute="height" constant="58" id="qYP-qF-2wV"/>
-                    </constraints>
                     <userDefinedRuntimeAttributes>
                         <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
                             <integer key="value" value="4"/>
@@ -28,7 +22,7 @@
                     </userDefinedRuntimeAttributes>
                 </view>
                 <textField opaque="NO" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="0" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="yGk-IE-oMU" customClass="SwiftyCodeTextField" customModule="SwiftyCodeView" customModuleProvider="target">
-                    <rect key="frame" x="0.0" y="13" width="51" height="32"/>
+                    <rect key="frame" x="0.0" y="0.0" width="51" height="58"/>
                     <color key="textColor" red="0.0" green="0.4549019608" blue="0.47058823529999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     <fontDescription key="fontDescription" name="CourierNewPSMT" family="Courier New" pointSize="28"/>
                     <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" keyboardType="numberPad" smartDashesType="no" smartInsertDeleteType="no" smartQuotesType="no"/>
@@ -36,19 +30,20 @@
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
             <constraints>
-                <constraint firstItem="yGk-IE-oMU" firstAttribute="centerY" secondItem="nHd-eh-O0u" secondAttribute="centerY" id="4OF-ow-UeP"/>
-                <constraint firstAttribute="bottom" secondItem="8eU-ou-C0S" secondAttribute="bottom" id="M3N-iE-2Iv"/>
-                <constraint firstAttribute="trailing" secondItem="8eU-ou-C0S" secondAttribute="trailing" id="PQ1-rb-zgJ"/>
-                <constraint firstItem="8eU-ou-C0S" firstAttribute="top" secondItem="nHd-eh-O0u" secondAttribute="top" id="hJV-zO-gTO"/>
-                <constraint firstItem="yGk-IE-oMU" firstAttribute="leading" secondItem="nHd-eh-O0u" secondAttribute="leading" id="iVP-On-FHn"/>
-                <constraint firstAttribute="trailing" secondItem="yGk-IE-oMU" secondAttribute="trailing" id="qux-La-Y2f"/>
-                <constraint firstItem="8eU-ou-C0S" firstAttribute="leading" secondItem="nHd-eh-O0u" secondAttribute="leading" id="zHj-iu-fqN"/>
+                <constraint firstAttribute="trailing" secondItem="yGk-IE-oMU" secondAttribute="trailing" id="0aT-Vz-hBs"/>
+                <constraint firstItem="yGk-IE-oMU" firstAttribute="top" secondItem="nHd-eh-O0u" secondAttribute="top" id="80l-tH-8oH"/>
+                <constraint firstAttribute="bottom" secondItem="yGk-IE-oMU" secondAttribute="bottom" id="CfF-5H-pQX"/>
+                <constraint firstItem="yGk-IE-oMU" firstAttribute="leading" secondItem="nHd-eh-O0u" secondAttribute="leading" id="OQ3-gW-c3N"/>
+                <constraint firstItem="8eU-ou-C0S" firstAttribute="leading" secondItem="nHd-eh-O0u" secondAttribute="leading" id="VNj-OM-nuI"/>
+                <constraint firstAttribute="trailing" secondItem="8eU-ou-C0S" secondAttribute="trailing" id="YuP-1r-I7D"/>
+                <constraint firstAttribute="bottom" secondItem="8eU-ou-C0S" secondAttribute="bottom" id="cHV-ew-jSc"/>
+                <constraint firstItem="8eU-ou-C0S" firstAttribute="top" secondItem="nHd-eh-O0u" secondAttribute="top" id="xFu-y0-suP"/>
             </constraints>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
             <connections>
                 <outlet property="textField" destination="yGk-IE-oMU" id="2aM-Dm-Clp"/>
             </connections>
-            <point key="canvasLocation" x="357" y="-65"/>
+            <point key="canvasLocation" x="356" y="-66.566716641679164"/>
         </view>
     </objects>
 </document>
