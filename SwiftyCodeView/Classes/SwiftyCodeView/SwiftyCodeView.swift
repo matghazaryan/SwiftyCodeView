@@ -111,6 +111,10 @@ extension SwiftyCodeView: UITextFieldDelegate, SwiftyCodeTextFieldDelegate {
 			return true
 		}
 
+        if string.count > 1 {
+            return true
+        }
+
 		if !textField.hasText {
 			let index = textField.tag
 			let item = stackView.arrangedSubviews[index] as! SwiftyCodeItemView
