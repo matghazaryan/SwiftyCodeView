@@ -24,8 +24,9 @@ open class SwiftyCodeView: UIControl {
 	var stackView: UIStackView = {
 		let stackView = UIStackView()
 		stackView.axis = .horizontal
-		stackView.distribution = .equalSpacing
+		stackView.distribution = .fillEqually
 		stackView.autoresizingMask = [.flexibleWidth, .flexibleHeight]
+        stackView.spacing = 16.0
 		return stackView
 	}()
 
@@ -107,7 +108,7 @@ extension SwiftyCodeView: UITextFieldDelegate, SwiftyCodeTextFieldDelegate {
 
 	public func textField(_ textField: UITextField, shouldChangeCharactersIn range: NSRange, replacementString string: String) -> Bool {
 
-		if string == "" { //is backspace
+		if string == "" { // is backspace
 			return true
 		}
 
@@ -116,12 +117,12 @@ extension SwiftyCodeView: UITextFieldDelegate, SwiftyCodeTextFieldDelegate {
 			let item = stackView.arrangedSubviews[index] as! SwiftyCodeItemView
 			item.textField.text = string
 			sendActions(for: .valueChanged)
-			if index == length - 1 { //is last textfield
+			if index == length - 1 { // is last textfield
 				if (delegate?.codeView(sender: self, didFinishInput: self.code) ?? false) {
 					textField.resignFirstResponder()
 				}
 				return false
-			}
+            }
 
 			_ = stackView.arrangedSubviews[index + 1].becomeFirstResponder()
 		}
